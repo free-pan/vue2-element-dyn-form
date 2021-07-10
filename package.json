@@ -1,6 +1,6 @@
 {
   "name": "vue2-element-dyn-form",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main": "lib/vue2-element-dyn-form.umd.min.js",
   "files": [
@@ -12,7 +12,7 @@
     "email": "sd4015700@126.com"
   },
   "repository": {
-    "url": "https://gitee.com/pan-zy/vue2-element-dyn-form/star",
+    "url": "https://gitee.com/pan-zy/vue2-element-dyn-form",
     "type": "git"
   },
   "scripts": {
