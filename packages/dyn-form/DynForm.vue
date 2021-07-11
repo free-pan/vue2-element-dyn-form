@@ -83,12 +83,8 @@ export default {
       elFormRef: 'jsonForm'
     }
   },
-  created() {
-    console.log('组件 DynForm 创建!')
-  },
-  updated() {
-    console.log('组件 DynForm 更新!')
-  },
+  created() {},
+  updated() {},
   methods: {
     /**
      * 判断当前表单项是否需要显示
@@ -163,7 +159,6 @@ export default {
      * @param {string} errorMsg 错误提示信息
      */
     setFieldErrorMsg(prop, errorMsg) {
-      console.log(prop, errorMsg)
       const fieldsArr = this.getElFormInstance().fields
       if (fieldsArr && fieldsArr.length > 0) {
         let fieldInfo = null

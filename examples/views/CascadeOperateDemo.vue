@@ -77,7 +77,6 @@ export default {
           },
           cusEvents: {
             change: (selectedValue) => {
-              console.log('selectedValue', selectedValue)
               this.formData.city = null
               const selectedProvince = this.provinceList.find(
                 (item) => item.value === selectedValue

@@ -2,7 +2,7 @@
   "name": "vue2-element-dyn-form",
   "version": "0.1.2",
   "private": false,
-  "main": "lib/vue2-element-dyn-form.umd.min.js",
+  "main": "lib/vue2-element-dyn-form.common.js",
   "files": [
     "lib/*.js",
     "packages"
@@ -40,6 +40,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-component": "^1.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "compression-webpack-plugin": "^6.1.1",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.3",

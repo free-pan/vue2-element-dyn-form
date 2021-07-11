@@ -26,12 +26,8 @@ export default {
     return {}
   },
   computed: {},
-  created() {
-    console.log('DynSelect created')
-  },
-  updated() {
-    console.log('DynSelect updated')
-  },
+  created() {},
+  updated() {},
   watch: {},
   methods: {}
 }

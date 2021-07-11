@@ -20,12 +20,8 @@ export default {
     return {}
   },
   computed: {},
-  created() {
-    console.log('DynView created')
-  },
-  updated() {
-    console.log('DynView updated')
-  },
+  created() {},
+  updated() {},
   watch: {},
   methods: {}
 }

@@ -50,10 +50,8 @@ export default {
   },
   computed: {},
   created() {
-    console.log('DynSelect created')
   },
   updated() {
-    console.log('DynSelect updated')
   },
   watch: {},
   methods: {}
