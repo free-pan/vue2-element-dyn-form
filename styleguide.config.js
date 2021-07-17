@@ -5,7 +5,7 @@ module.exports = {
   ignore: ['**/index.js'],
   require: [path.join(__dirname, 'styleguide.global.requires.js')],
   version: '0.1.0',
-  styleguideDir: 'styleguide-dist',
+  styleguideDir: 'docs',
   // 在编辑器的右上角添加一个小按钮，用于将编辑器的内容复制到剪贴板
   copyCodeButton: true,
   // 是否每个章节是一个独立的页面. 默认:false
@@ -47,7 +47,7 @@ module.exports = {
   sections: [
     {
       name: '指南',
-      content: 'docs/introduction.md'
+      content: 'styleguide-docs/introduction.md'
     },
     {
       name: '动态表单组件',

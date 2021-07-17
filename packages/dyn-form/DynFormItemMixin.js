@@ -1,6 +1,6 @@
 /**
  * 扩展自定义表单项所需的Mixin
- * @example ../../docs/DynFormItemMixin.md
+ * @example ../../styleguide-docs/DynFormItemMixin.md
  */
 export default {
   props: {

@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { deepCopy } from './utils/DynFormUtils'
+import CommUtil from 'panzy-comm-js'
 import DynInput from './DynInput'
 import DynSelect from './DynSelect'
 import DynView from './DynView'
@@ -26,7 +26,7 @@ import DynView from './DynView'
  * @requires ./DynInput.vue
  * @requires ./DynSelect.vue
  * @requires ./DynView.vue
- * @example ../../docs/DynForm.md
+ * @example ../../styleguide-docs/DynForm.md
  */
 export default {
   name: 'DynForm',
@@ -150,7 +150,7 @@ export default {
      */
     getData() {
       // 避免外部修改该表单返回数据时, 影响内部的表单数据
-      return deepCopy(this.value)
+      return CommUtil.deepClone(this.value)
     },
     /**
      * 手动给表单项设置自定义错误提示信息
